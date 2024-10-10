@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://i.imgur.com/2R97Vqy.jpg);
+}
+.bg{
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(13, 13, 24, 0.9);
+}
+.authentication{
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: #171d25;
+}
+.subm{
+    background: linear-gradient(to right, #3632ff, #00e5ff);
+    margin: 10px 0;
+    padding:5px 25px;
+    border-radius: 3px;
+    font-weight: bold;
+    color:azure;
+}
+.subm:hover{
+    background: linear-gradient(to right, #8987ff, #87f3ff);
+    color: #4a4a4a;
+}
+.link{
+    background: linear-gradient(to right, #004a54, #04004b);
+    margin: 10px 0;
+    padding:5px 25px;
+    border-radius: 3px;
+    color:azure;
+    text-decoration: none;
+}
+.link:hover{
+    background: linear-gradient(to right, #85cdd2, #6165d3);
+    color: #4a4a4a;
+}

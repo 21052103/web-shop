@@ -1,0 +1,192 @@
+body {
+  background: linear-gradient(to top, #000000, #000022);
+  background-repeat: no-repeat;
+}
+.product {
+  box-sizing: border-box;
+  background: linear-gradient(to top, #000000, #00a8ba);
+  border-radius: 10px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  transition: background-color 0.5s ease;
+}
+.product:hover {
+  background: linear-gradient(to top, #2d2b2b, #52eeff);
+}
+.content {
+  margin: 0 10px;
+}
+.sml {
+  margin: 0 -20px;
+}
+.pic-small {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.highlight {
+  border: 2px solid rgb(2, 130, 137);
+}
+.pic-large img {
+  margin-right: auto;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+.atc:hover {
+  background: linear-gradient(to right, #99fffc, #338cff);
+  width: 101%;
+}
+.bg {
+  background: #212121;
+}
+.bg-item:hover {
+  background: #525252;
+}
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+.notification:hover {
+  background: red;
+}
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+.full-notification {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px 0;
+}
+.notify-bg {
+  border-radius: 20px;
+  margin: 0 auto;
+  background: #212121;
+}
+.dot {
+  color: red;
+}
+.bell {
+  position: relative;
+  display: inline-block;
+}
+.bell .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+.like {
+  color: aliceblue;
+}
+footer {
+  background-color: #242424;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer-content {
+  margin-bottom: 20px;
+}
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+}
+.socials li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.socials a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-bottom p {
+  margin: 0;
+}
+.banner {
+  margin-top: -49px;
+  background: url("../images/banner.png") no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(206, 151, 185);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.banner-content p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.btn-cm {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #2c3e50; /* Màu xanh đậm */
+  color: #ffffff; /* Màu chữ */
+  font-size: 16px; /* Kích thước chữ */
+  border: none; /* Không viền */
+  border-radius: 5px; /* Góc tròn */
+  text-decoration: none; /* Không gạch chân */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
+.btn-cm:hover {
+  background-color: #34495e; /* Màu xanh nhạt hơn khi di chuột qua */
+}
+.news-bg {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #2d3138;
+  background-size: cover;
+  color: #fff;
+  padding-top: 100px;
+  margin-top: -48px;
+  padding-bottom: 250px;
+  margin-bottom: -35px;
+}
+.news-item {
+  border-bottom: 1px solid #555;
+  padding: 20px;
+  background: rgba(53, 57, 67, 0.5);
+  margin-bottom: 20px;
+  color: #ddd;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: background-color 0.3s ease;
+}
+.news-item:hover {
+  background-color: rgba(85, 85, 85, 0.5);
+}
+.bg-nav {
+  background: #000019;
+}

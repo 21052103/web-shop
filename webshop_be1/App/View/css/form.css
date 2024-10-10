@@ -1,0 +1,21 @@
+.addproduct:hover{
+    color: violet;
+    background-color: aquamarine;
+}
+
+.management:hover{
+    color: violet;
+    background-color: aquamarine;
+}
+
+.management{
+    width: 120px;
+    
+}
+
+.addproduct{
+    width: 120px;
+    
+}
+
+
